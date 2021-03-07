@@ -12,9 +12,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
-    path: '/track-dimensions',
-    name: 'TrackDimensions',
-    component: () => import(/* webpackChunkName: "track-dimensions-view" */ '../views/TrackDimensions.vue'),
+    path: '/measure-need-fulfillment',
+    name: 'MeasureNeedFulfillment',
+    component: () => import(/* webpackChunkName: "measure-need-fulfillment" */ '@/features/needs/views/MeasureNeedFulfillment.vue'),
   },
 ];
 

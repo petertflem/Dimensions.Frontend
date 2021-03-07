@@ -2,7 +2,7 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/track-dimensions">Track dimensions</router-link>
+    <router-link to="/measure-need-fulfillment">Measure need fulfillment</router-link>
   </div>
   <router-view/>
 </template>
